@@ -1,0 +1,133 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+a { text-decoration: none; }
+section { margin: 0; padding: 0; width: 100% }
+.wrapper {
+  display: inline-block;
+  width: 980px;
+  min-height: 40px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+/* header  */
+header {padding: 20px 0 10px}
+.logo {
+  display: inline-block;
+  float: left;
+}
+.mainNav ul {
+  list-style: none;
+  display: inline-block;
+  float: right;
+}
+.mainNav ul li {
+  display: inline-block;
+  padding: 10px 15px;
+}
+.mainNav a {
+  color: #aaa;
+  text-decoration: none;
+  transition: color .2s ease;
+}
+.mainNav a:hover {
+  color: #06a;
+}
+/* slideshow */
+.banner {
+  display: block;
+  width: 100%;
+  height: 200px;
+  padding: 200px 0;
+  background: url("https://images.unsplash.com/39/wdXqHcTwSTmLuKOGz92L_Landscape.jpg") no-repeat;
+  background-size: cover;
+}
+.info {
+  display: block;
+  max-width: 500px;
+  color: #fff;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, .35);
+}
+.info h2 {
+  font-size: 30px;
+  font-weight: lighter;
+}
+.info p {
+  font-size: 18px;
+  font-weight: lighter;
+  margin: -15px 0 40px;
+}
+.info .btn {
+  color: #666;
+  background: #fff;
+  padding: 10px 15px;
+  text-shadow: none;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  margin-right: 10px;
+  transition: all .2s ease;
+}
+.info .btn:hover {
+  color: #fff;
+  background: #06a;
+}
+/* section who we are */
+.whoWeAre {
+  display: block;
+  height: 300px;
+  padding: 20px 0;
+  text-align: center;
+}
+.whoWeAre h3 {
+  display: block;
+  text-align: center;
+  font-size: 42px;
+  font-weight: lighter;
+  color: #06a;
+}
+.whoWeAre p {
+  font-size: 16px;
+  color: #666;
+  font-weight: lighter;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: justify;
+  line-height: 20px;
+}
+
+/* FOOTER */
+footer {
+  display: block;
+  width: 100%;
+  height: 100px;
+  margin: 0;
+  padding: 0;
+  background: #f1f1f1;
+  text-align: center;
+}
+.f-info {
+  display: inline-block;
+  padding: 10px 30px;
+  min-width: 100px;
+}
+
+.f-info img {
+  float: left;
+}
+.f-info p,
+.f-info a {
+  float: left;
+  font-size: 18px;
+  color: #06a;
+  margin-top: 15px;
+  transition: color .2s ease;
+}
+.f-info a:hover {
+  color: blue;
+}
